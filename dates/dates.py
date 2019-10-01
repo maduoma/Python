@@ -1,9 +1,12 @@
+# importing Date library
 from datetime import datetime, timedelta
-
+# Getting today's date
 today = datetime.now()
-# print(f'Today is {today}')
+# f keyword converts date to a string before printing
+print(f'Today is {today}')
+# Alternative  way to convert date to a string before printing
 print('Today is: '+str(today))
-
+# timedelta is used to get a period of time and used with datetime to get the present, past or future time, like yesterday, birthday, etc
 one_day_ago = timedelta(days = 1)
 yesterday = today - one_day_ago
 print(f'Yesterday was {yesterday}')
