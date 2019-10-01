@@ -9,7 +9,7 @@ print('This is the end of the program. Thanks.')
 print('Adding numbers') 
 x = 34 + 4
 print(x)
-print('Dividing by zero') #Use this comment to debug or detect where errors occur in your code easily
+print('Dividing numbers') #Use this comment to debug or detect where errors occur in your code easily
 y = x / 0
 print(y)
 print('This is the end')
