@@ -13,7 +13,7 @@ print(z)
 print('Exponential')
 k = z ** 2 # z is raised to the power 2
 print(k)
-
+print('The strings bellow must be converted to numbers before they are used in calculations')
 x = '5'
 y = '6'
 #Converting string to int numbers before printing
