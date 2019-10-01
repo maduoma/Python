@@ -1,7 +1,7 @@
 
 print('Hello from Python!')
 print()
-print("Counts the number of letter 'm' in the the string")
+print("Counts the number of letter 'm' in dog_name = 'The dog is named Sammy' string")
 dog_name = 'The dog is named Sammy'
 dog_name_count = dog_name.count('m') #Counts the number of letter m in the the string
 print(dog_name_count)
@@ -11,15 +11,15 @@ first_name = 'Maduabughichi'
 last_name = 'Achilefu'
 print()
 print('Formating strings using empty braces')
-output = 'Hello, {} {}'.format(first_name, last_name) # Works in Python versions below 3.x
+output = 'Hello {} {}'.format(first_name, last_name) # Works in Python versions below 3.x
 print(output)
 print()
 print('Formating strings using numbers with braces') # Works in Python versions below 3.x
-output = 'Hello, {0} {1}'.format(first_name, last_name)
+output = 'Hello {0} {1}'.format(first_name, last_name)
 print(output)
 print()
 print('With numbers, you can interchange the strings order ')
-output = 'Hello, {1} {0}'.format(first_name, last_name) 
+output = 'Hello {1} {0}'.format(first_name, last_name) 
 print(output)
 print()
 print("Formating strings using 'f' keyword")
