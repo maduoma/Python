@@ -26,4 +26,5 @@ print(f'Birthday: {my_birthday}')
 one_week_ago = timedelta(weeks = 1)
 one_week_ago_date = current_date - one_week_ago
 print(f'Last Week (One Week Ago): {one_week_ago_date}')
-print("Today's date is "+ str(current_date)) #Converting current date to string before printing
+#Converting current date to string before printing
+print("Today's date is "+ str(current_date)) 
