@@ -1,4 +1,4 @@
-print('Getting inputs from user')
+print('Getting inputs from user - ')
 price = input('How much did you pay?  ')
 price = float(price)
 if price >= 1.00:
@@ -16,7 +16,7 @@ print(tax)
 
 # For Strings
 # Using nested if statements
-print('Using nested if statements')
+print('Using nested if statements - ')
 country = input('Which country do you live in? ')
 if country.lower() == 'canada':
     province = input('Which province do you live in? ')
@@ -33,8 +33,9 @@ if country.lower() == 'canada':
 else:
    tax = 0
 print(f'Your tax is {tax}')
+
 # OR using 'in' instead of nested if statements
-print("Using 'in' keyword in place of nested if statements")
+print("Using 'in' keyword in place of nested if statements - ")
 country = input('Which country do you live in? ')
 if country.lower() == 'canada':
     province = input('Which province do you live in? ')
