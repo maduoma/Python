@@ -34,6 +34,23 @@ else:
    tax = 0
 print(f'Your tax is {tax}')
 
+
+# OR using 'in' instead of nested if statements
+print("Using 'in' keyword in place of nested if statements - ")
+country = input('Which country do you live in? ')
+if country.lower() == 'canada':
+    province = input('Which province do you live in? ')
+    if province.lower() in('Alberta',\
+        'Nunavut', 'Yukon'):
+        tax = 0.05
+    elif province.lower() == 'Ontario':
+        tax = 0.15
+    else:
+        tax = 0.15
+else:
+   tax = 0
+print(f'Your tax is {tax}')
+
 # OR using 'in' instead of nested if statements
 print("Using 'in' keyword in place of nested if statements - ")
 country = input('Which country do you live in? ')
