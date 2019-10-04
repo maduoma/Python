@@ -14,9 +14,17 @@ else:
 print(tax)
 
 # For Strings
-country = input('Which country are you from? ')
+country = input('Which country do you live in? ')
 if country.lower() == 'canada':
-    print('Oh, you are a Canadian!')
+    province = input('Which province do you live in? ')
+    if province.lower() in('Alberta',\
+        'Nunavut', 'Yukon'):
+        tax = 0.05
+    elif province.lower() == 'Ontario':
+        tax = 0.15
+    else:
+        tax = 0.15
 else:
-    print('You are not from Canada. This offer is not for you!')
+   tax = 0
+print(f'Your tax is {tax}')
 
