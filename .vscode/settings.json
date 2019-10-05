@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "numpy",
+        "pylab",
+        "scipy",
         "strptime"
     ]
 }
