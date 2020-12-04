@@ -25,7 +25,8 @@ print(type(num1))
 # Type Conversion or Casting
 print(str(123) + str(456))
 print(float(70))
-print(int(7.2))
+# Drops the number after the decimal point
+print(int(7.5))
 
 # Challenge 1
 two_digit_number = input("Type a two-digit number!\n")
