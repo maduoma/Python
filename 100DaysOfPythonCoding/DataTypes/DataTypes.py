@@ -6,7 +6,7 @@ print("123" + "456")
 
 # 2. Integer
 print(123 + 456)
-# Python ignores the under that serves as commas and prints the number
+# Python ignores the underscore that serves as commas and prints the number
 print(123_456_789)
 
 # 3. Float
@@ -28,7 +28,9 @@ print(float(70))
 # Drops the number after the decimal point
 print(int(7.5))
 
+#################################################################
 # Challenge 1
+#################################################################
 two_digit_number = input("Type a two-digit number!\n")
 sum_of_two_digit_num = int(two_digit_number[0]) + int(two_digit_number[1])
 print(sum_of_two_digit_num)

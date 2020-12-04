@@ -1,5 +1,6 @@
+#################################################################
 # Mathematical Operations
-
+#################################################################
 # Addition
 print(1 + 2)
 
@@ -15,9 +16,11 @@ print(4 / 2)
 
 # Exponent or raising a number to a power
 # Getting a hold of 3 to the power of 2
-print(3**2)
+print(3 ** 2)
 
+#################################################################
 # Operator Precedence
+#################################################################
 # PEMDAS(LR) - Parentheses Exponents Multiplication Division Addition Subtraction (Left to Right)
 # BODMAS(LR) - Bracket Of Division Multiplication Addition Subtraction (Left to Right)
 
@@ -27,4 +30,19 @@ print(3**2)
 print(3 * 3 + 3 / 3 - 3)
 print(3 / 3 - 3 * 3 + 3)
 print(3 * (3 + 3) / 3 - 3)
+
+#################################################################
+# Challenge 2: BMI
+#################################################################
+height = input("Enter your height in m: \n")
+weight = input("Enter your weight in kg: \n")
+my_height = float(height)
+my_weight = int(weight)
+BMI = my_weight / (my_height ** 2)
+my_bmi = int(BMI)
+print("Your BMI is " + str(my_bmi))
+
+
+
+
 
