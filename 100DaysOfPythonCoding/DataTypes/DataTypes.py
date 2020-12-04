@@ -15,3 +15,13 @@ print(3.12534)
 print(True)
 print(False)
 
+# Type Checking
+name = "Madu"
+num1 = 123
+print(type(name))
+print(type(num1))
+
+# Type Conversion or Casting
+print(str(123) + str(456))
+print(float(70))
+
