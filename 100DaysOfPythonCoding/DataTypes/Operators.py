@@ -8,6 +8,6 @@ print(2 - 1)
 print(2 * 3)
 
 # Division
-# # Gives a float
+# # Gives a float in Python
 print(4 / 2)
 
