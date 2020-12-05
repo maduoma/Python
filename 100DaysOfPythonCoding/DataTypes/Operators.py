@@ -65,9 +65,8 @@ isWinning = True
 print(f"Your score is {score}, your height is {height}, your winning is {isWinning}\n")
 
 #################################################################
-# Challenge 3
+# Challenge 3 # You have x days, y weeks, and z months left if you've 90 years to live
 #################################################################
-# You have x days, y weeks, and z months left
 current_age = input("What is your current age? \n")
 remaining_years = 90 - int(current_age)
 remaining_years_in_days = remaining_years * 365
