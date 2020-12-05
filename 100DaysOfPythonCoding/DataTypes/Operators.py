@@ -32,7 +32,7 @@ print(3 / 3 - 3 * 3 + 3)
 print(3 * (3 + 3) / 3 - 3)
 
 #################################################################
-# Challenge 2: BMI
+# Challenge 2.2: BMI
 #################################################################
 height = input("Enter your height in m: \n")
 weight = input("Enter your weight in kg: \n")
@@ -65,7 +65,7 @@ isWinning = True
 print(f"Your score is {score}, your height is {height}, your winning is {isWinning}\n")
 
 #################################################################
-# Challenge 3 # You have x days, y weeks, and z months left if you've 90 years to live
+# Challenge 2.3 # You have x days, y weeks, and z months left if you've 90 years to live
 #################################################################
 current_age = input("What is your current age? \n")
 remaining_years = 90 - int(current_age)
@@ -76,7 +76,7 @@ print(f"You have {remaining_years_in_days} days, {remaining_years_in_weeks} week
       f"months left.\n")
 
 #################################################################
-# Challenge 4 : Tip Calculator
+# Challenge 2.4 : Tip Calculator
 #################################################################
 # Welcome to the Tip Calculator.
 # What was the total bil? $124.56

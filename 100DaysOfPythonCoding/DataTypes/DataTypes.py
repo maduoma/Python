@@ -29,7 +29,7 @@ print(float(70))
 print(int(7.5))
 
 #################################################################
-# Challenge 1
+# Challenge 2.1: Sum of A 2-digit number
 #################################################################
 two_digit_number = input("Type a two-digit number!\n")
 sum_of_two_digit_num = int(two_digit_number[0]) + int(two_digit_number[1])
