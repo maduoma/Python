@@ -2,6 +2,7 @@
 # 1. String
 # prints to the console the character at index 4
 print("Hello"[4])
+# Concatenation using plus (+)
 print("123" + "456")
 
 # 2. Integer

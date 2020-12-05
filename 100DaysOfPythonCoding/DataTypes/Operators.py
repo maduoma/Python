@@ -42,7 +42,6 @@ BMI = my_weight / (my_height ** 2)
 my_bmi = int(BMI)
 print("Your BMI is " + str(my_bmi) + "\n")
 
-
 #################################################################
 # Mathematical operations:  More on Operators : Data Manipulations
 #################################################################
