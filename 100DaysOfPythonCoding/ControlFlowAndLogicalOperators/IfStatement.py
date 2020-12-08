@@ -10,7 +10,7 @@ else:
 print("\n")
 
 #########################################
-# Challenge 3.1 : Even or Odd Number
+# Challenge 3.1 : Even or Odd Number?
 #########################################
 num = int(input("Enter a number? "))
 if num % 2 == 0:
