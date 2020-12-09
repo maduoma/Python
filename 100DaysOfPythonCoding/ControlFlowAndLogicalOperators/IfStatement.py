@@ -143,7 +143,7 @@ if height >= 120:
         bill = 12
         print("Please pay $12")
     wants_photo = input("Do you want photo? Y or N ")
-    if wants_photo == "Y":
+    if wants_photo == "Y".lower():
         bill += 3
     print(f"Your final bill is ${bill}.")
 else:
