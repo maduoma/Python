@@ -113,7 +113,7 @@ year = int(input("Enter a year: "))
 if (year % 4) == 0:
     if (year % 100) == 0:
         if (year % 400) == 0:
-            print("{0} is a leap year", format(year))
+            print("{0} is a leap year".format(year))
         else:
             print("{0} is not a leap year".format(year))
     else:
@@ -125,19 +125,27 @@ print("\n")
 # print(float("123,456.908".replace(",", "")))
 
 #########################################
-# elif between if -- else as many as required
+# Multiple If Statements in succession
 #########################################
-print("Welcome to rollercoaster!")
+print("Welcome to rollercoaster Version 2.!")
 height = int(input("what is your height? "))
+bill = 0
 if height >= 120:
     print("You can ride coaster")
-    age = int(input("What is your age?"))
+    age = int(input("What is your age? "))
     if age < 12:
+        bill = 5
         print("Please pay $5")
     elif age <= 18:
+        bill = 7
         print("Please pay $7")
     else:
+        bill = 12
         print("Please pay $12")
+    wants_photo = input("Do you want photo? Y or N ")
+    if wants_photo == "Y":
+        bill += 3
+    print(f"Your final bill is ${bill}.")
 else:
-    print("You will have to grow taller to be able to ride.")
+    print("Sorry, you will have to grow taller to be able to ride.")
 print("\n")
